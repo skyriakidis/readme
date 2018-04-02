@@ -47,7 +47,7 @@ snakemake
 
 ## Data
 
-This repository includes 4 fastq files in [data/fastq_raw/] for use with the workflow as well as a sample fasta file in [data/genome/] which will be used as a reference file for the mapping of the raw reads.
+This repository includes 4 fastq files in [bin/fastq_raw] folder for use with the workflow as well as a sample fasta file in [data/genome] which will be used as a reference file for the mapping of the raw reads.
 
 - Sample 1
 	- `test_1.F.fastq.gz` contains the forward mates of the sequenced reads of the first sample
@@ -61,7 +61,7 @@ This repository includes 4 fastq files in [data/fastq_raw/] for use with the wor
 ## Scripts
 
 [config.yaml] contains links with configuration files and parameters that are used in the workflow.
-[Snakefile] contains the rules that are used in the workflow, written as python scripts and stored in [bin/snakefiles/].
+[Snakefile] contains the rules that are used in the workflow, written as python scripts and stored in [bin/snakefiles].
 
 
 
@@ -70,8 +70,9 @@ This repository includes 4 fastq files in [data/fastq_raw/] for use with the wor
 
 [Snakefile]: https://github.com/chollenbeck/snakemake_haps/blob/master/Snakefile
 [config.yaml]: https://github.com/chollenbeck/snakemake_haps/blob/master/config.yaml
-[/data/fastq_raw/]: https://github.com/chollenbeck/snakemake_haps/tree/master/data/fastq_raw
-[/data/genome/]: https://github.com/chollenbeck/snakemake_haps/tree/master/data/genome
-[/bin/snakefiles/]: https://github.com/chollenbeck/snakemake_haps/tree/master/bin/snakefiles 
+[data/fastq_raw]: https://github.com/chollenbeck/snakemake_haps/tree/master/data/fastq_raw
+[data/genome]: https://github.com/chollenbeck/snakemake_haps/tree/master/data/genome
+[data/genome]: https://github.com/chollenbeck/snakemake_haps/tree/master/data/genome
+[bin/snakefiles]: https://github.com/chollenbeck/snakemake_haps/tree/master/bin/snakefiles 
 [Snakemake]: https://bitbucket.org/snakemake/snakemake/wiki/Home
 [tutorial for beginners]: http://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html
