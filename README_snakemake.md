@@ -11,7 +11,7 @@
 
 
 
-##Description
+## Description
 
 This repository contains scripts that are part of a complete workflow for DNA-seq analysis and mapping reads to a reference genome for the identification of SNPs and designing of haplotypes. 
 
@@ -21,7 +21,7 @@ This repository contains scripts that are part of a complete workflow for DNA-se
 If you are new to [Snakemake], you might want to start by working the available [tutorial for beginners] with instructions for how to install Snakemake, as well as Miniconda Python 3 and setting an environment with all required software.
 
 
-##Quick Start:
+## Quick Start:
 
 
 
@@ -45,7 +45,7 @@ snakemake
  
  
 
-##Data
+## Data
 
 This repository includes 4 fastq files in [data/fastq_raw/] for use with the workflow as well as a sample fasta file in [data/genome/] which will be used as a reference file for the mapping of the raw reads.  
 
@@ -58,7 +58,7 @@ This repository includes 4 fastq files in [data/fastq_raw/] for use with the wor
 	- `test_2.R.faastq.gz` contains the reverse mates of the sequenced reads of the second sample
 
 
-##Scripts
+## Scripts
 
 [config.yaml] contains links with configuration files and prameters that are used in the workflow
 [Snakefile]	contains the 
