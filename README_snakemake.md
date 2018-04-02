@@ -34,10 +34,10 @@ git clone https://github.com/chollenbeck/snakemake_haps.git
 cd snakemake_haps
 
 #Installing available environment
-conda env create --name [environment_name] --file [/bin/install/environment.yml]
+conda env create --name *environment_name* --file [/bin/install/environment.yml]
 
 #Activate environment
-source activate [environment_name] 
+source activate *environment_name]* 
 
 #Start workflow by running snakemake
 snakemake
@@ -60,8 +60,8 @@ This repository includes 4 fastq files in [data/fastq_raw/] for use with the wor
 
 ## Scripts
 
-[config.yaml] contains links with configuration files and prameters that are used in the workflow
-[Snakefile]	contains the 
+[config.yaml] contains links with configuration files and parameters that are used in the workflow
+[Snakefile]	contains the rules that are used in the workflow, written as python scripts and stored in [bin/snakefiles/]
 
 
 
