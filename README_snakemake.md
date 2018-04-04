@@ -74,7 +74,9 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 -[map.py] This script contains the full workflow for mapping the reads to a reference genome by using BWA-MEM mapper and FreeBayes variant caller. 
 - Steps
 	1) Indexing of the reference genome.
-	2) Mapping the trimmed reads against the reference genome 
+	2) Mapping the trimmed reads against the reference genome and sorting the output [BAM] file.
+	3) Apply [SAMtools] -fixmate and -markdup utilities to sorted BAM files for the removal of potential PCR duplicates. The output file of this step must be indexed.
+	4) For variant calling, the output BAM files from mapping each sample to the reference genome must be merged and indexed.
  
  
 
@@ -95,3 +97,14 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 [Snakemake]: https://bitbucket.org/snakemake/snakemake/wiki/Home
 [tutorial for beginners]: http://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html
 [fastqc]: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/
+[BAM]: http://samtools.github.io/hts-specs/SAMv1.pdf
+[SAMtools]: http://samtools.sourceforge.net/
+
+
+
+
+
+
+
+
+
