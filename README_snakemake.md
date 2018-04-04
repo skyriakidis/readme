@@ -60,13 +60,17 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 ## Scripts
 
 [config.yaml] contains links with configuration files and parameters that are used in the workflow.
+
 [Snakefile] contains the rules that are used in the workflow, written as python scripts and stored in [bin/snakefiles].
 
 ## Snakefiles
 
 [raw.py] creates links with the reference genome and the fastq files for downstream analysis by the workflow.
-[folders.py] creates folders for all output files produced by each step of the workflow
+
+[folders.py] creates folders for all output files produced by each step of the workflow.
+
 [qc.py] QC.py by using Trimmomatic removes Illumina adapters that can cause a problem downstream analysis and the identification of high quality SNPs. Additionally, Trimmomatic trims low quality regions of reads. Apart from Trimmomatic, qc.py contains a quality control step using FastQC tool to confirm the high quality of trimmed reads.
+
 [map.py] 
  
  
