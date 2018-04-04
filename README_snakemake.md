@@ -69,14 +69,18 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 
 -[folders.py] creates folders for all output files produced by each step of the workflow.
 
--[qc.py] QC.py by using Trimmomatic removes Illumina adapters that can cause a problem downstream analysis and the identification of high quality SNPs. Additionally, Trimmomatic trims low quality regions of reads. Apart from Trimmomatic, qc.py contains a quality control step using FastQC tool to confirm the high quality of trimmed reads producing figures and tables with statistics which are explained in [fastQC] help page.
+-[qc.py] qc.py by using Trimmomatic removes Illumina adapters that can cause a problem downstream analysis and the identification of high quality SNPs. Additionally, Trimmomatic trims low quality regions of reads. Apart from Trimmomatic, qc.py contains a quality control step using fastQC tool to confirm the high quality of trimmed reads producing figures and tables with statistics which are explained in [fastQC] help page.
 
--[map.py] This script contains the full workflow for mapping the reads to a reference genome by using BWA-MEM mapper and FreeBayes variant caller. 
+-[map.py] This script contains the full workflow for mapping the reads to a reference genome by using [BWA-MEM] mapper and [FreeBayes] variant caller. 
 - Steps
 	1) Indexing of the reference genome.
 	2) Mapping the trimmed reads against the reference genome and sorting the output [BAM] file.
 	3) Apply [SAMtools] -fixmate and -markdup utilities to sorted BAM files for the removal of potential PCR duplicates. The output file of this step must be indexed.
 	4) For variant calling, the output BAM files from mapping each sample to the reference genome must be merged and indexed.
+
+-[variant_calling.py] contains the workflow for the identification of variants from the produced BAM files. Initially this script splits the reference sequence into  multiple components for faster variant analysis. FreeBayes is the variant caller which requires as input files the indexed merged BAM file and produes a VCF file with raw variants. A filtering procedure is included in this script to remove low quality variants from the final variant set.
+
+ 
  
  
 
@@ -99,6 +103,8 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 [fastqc]: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/
 [BAM]: http://samtools.github.io/hts-specs/SAMv1.pdf
 [SAMtools]: http://samtools.sourceforge.net/
+[BWA-MEM]: http://bio-bwa.sourceforge.net/bwa.shtml
+[FreeBayes]: https://github.com/ekg/freebayes
 
 
 
