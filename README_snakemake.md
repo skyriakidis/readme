@@ -72,9 +72,9 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 -[qc.py] QC.py by using Trimmomatic removes Illumina adapters that can cause a problem downstream analysis and the identification of high quality SNPs. Additionally, Trimmomatic trims low quality regions of reads. Apart from Trimmomatic, qc.py contains a quality control step using FastQC tool to confirm the high quality of trimmed reads producing figures and tables with statistics which are explained in [fastQC] help page.
 
 -[map.py] This script contains the full workflow for mapping the reads to a reference genome by using BWA-MEM mapper and FreeBayes variant caller. 
-	## Steps
-	1) Indexing of the reference genome
-	2)  
+	- Steps
+	1) Indexing of the reference genome.
+	2) Mapping the trimmed reads against the reference genome 
  
  
 
