@@ -69,9 +69,12 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 
 -[folders.py] creates folders for all output files produced by each step of the workflow.
 
--[qc.py] QC.py by using Trimmomatic removes Illumina adapters that can cause a problem downstream analysis and the identification of high quality SNPs. Additionally, Trimmomatic trims low quality regions of reads. Apart from Trimmomatic, qc.py contains a quality control step using FastQC tool to confirm the high quality of trimmed reads.
+-[qc.py] QC.py by using Trimmomatic removes Illumina adapters that can cause a problem downstream analysis and the identification of high quality SNPs. Additionally, Trimmomatic trims low quality regions of reads. Apart from Trimmomatic, qc.py contains a quality control step using FastQC tool to confirm the high quality of trimmed reads producing figures and tables with statistics which are explained in [fastQC] help page.
 
--[map.py] 
+-[map.py] This script contains the full workflow for mapping the reads to a reference genome by using BWA-MEM mapper and FreeBayes variant caller. 
+	## Steps
+	1) Indexing of the reference genome
+	2)  
  
  
 
@@ -85,9 +88,10 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 [data/fastq_raw]: https://github.com/chollenbeck/snakemake_haps/tree/master/data/fastq_raw
 [data/genome]: https://github.com/chollenbeck/snakemake_haps/tree/master/data/genome
 [raw.py]: https://github.com/chollenbeck/snakemake_haps/blob/master/bin/snakefiles/raw.py
-[folder.py]: https://github.com/chollenbeck/snakemake_haps/blob/master/bin/snakefiles/folders.py
+[folders.py]: https://github.com/chollenbeck/snakemake_haps/blob/master/bin/snakefiles/folders.py
 [map.py]: https://github.com/chollenbeck/snakemake_haps/blob/master/bin/snakefiles/map.py
 [qc.py]: https://github.com/chollenbeck/snakemake_haps/blob/master/bin/snakefiles/qc.py
 [bin/snakefiles]: https://github.com/chollenbeck/snakemake_haps/tree/master/bin/snakefiles 
 [Snakemake]: https://bitbucket.org/snakemake/snakemake/wiki/Home
 [tutorial for beginners]: http://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html
+[fastqc]: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/
