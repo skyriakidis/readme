@@ -90,6 +90,7 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 ## References
 
 Garrison E, Marth G. Haplotype-based variant detection from short-read sequencing. arXiv preprint arXiv:1207.3907 [q-bio.GN] 2012
+
 Li H. and Durbin R. (2009). Fast and accurate short read alignment with Burrows-Wheeler Transform. Bioinformatics, 25(14), 1754-1760.
 
 
