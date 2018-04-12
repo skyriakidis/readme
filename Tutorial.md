@@ -28,11 +28,13 @@ curl -o /tmp/Anaconda.sh https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux
 or
 
 - Download the available version of Anaconda from https://www.continuum.io/downloads
-
+and
 - Run the installer by typing:
 ```sh
 bash Anaconda.sh
 ```
+
+### For installing Miniconda3:
 
 - Installing Miniconda3:
 ```sh
@@ -41,7 +43,7 @@ curl -o /tmp/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-latest-
 or
 
 - Download the available version of Miniconda3 from https://conda.io/miniconda.html
-
+and
 - Run the installer by typing:
 ```sh
 bash Miniconda3-latest-Linux-x86_64.sh
