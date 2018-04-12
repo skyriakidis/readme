@@ -10,8 +10,8 @@ This tutorial is using two samples and one fasta file as a reference.
 # 2) First steps
 
 1. Downloading and Installing (Ana|mini)conda:
-- [Anaconda](https://www.continuum.io/downloads)
-- [miniconda](http://conda.pydata.org/miniconda.html)
+- [Anaconda]
+- [Miniconda]
 
 ### For installing Anaconda:
 
@@ -64,6 +64,6 @@ conda install -c bioconda snakemake
 
 
 
-[Anaconda]: https://www.anaconda.com/download/
+[Anaconda]: https://www.continuum.io/downloads
 [Miniconda]: https://conda.io/miniconda.html
 [Curl]: https://www.tutorialspoint.com/unix_commands/curl.htm 
