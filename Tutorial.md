@@ -14,10 +14,10 @@ This tutorial is using two samples and one fasta file as a reference.
 - [miniconda](http://conda.pydata.org/miniconda.html)
 
 ### For installing Anaconda:
-	```sh
-	-Curl is needed so if not installed you can install it by typing:
-	sudo apt install curl	
-	```sh
+```sh
+-Curl is needed so if not installed you can install it by typing:
+sudo apt install curl	
+```sh
 	
 ##### Installing Anaconda
 curl -o /tmp/Anaconda.sh https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh && bash /tmp/Anaconda.sh
