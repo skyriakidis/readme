@@ -1,7 +1,7 @@
 # A tutorial for a complete variant calling and haplotype desinging workflow
 
 
-# 1)Description
+# 1) Description
 
 This is a tutorial to learn how to use the Snakemake workflow for mapping reads, call high quality variants and design haplotypes accurately. 
 
