@@ -71,10 +71,12 @@ conda install -c bioconda snakemake
  
  
  2. Install environment for use with the workflow
+ 
  a. First change directory
  ```sh
  cd /user/dir/snakemake_haps
  ```
+ 
  b. Installing the appropriate environment file
  ```sh
  conda env create --name *environment_name* --file /bin/install/environment.yml
