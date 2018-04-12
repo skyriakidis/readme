@@ -92,7 +92,7 @@ conda install -c bioconda snakemake
  ```sh
  snakemake
  ```
- ###### Information about samples and snakefiles used in this workflow can be found in the [readme.md] file.
+ ###### Information about samples and snakefiles used in this workflow can be found in the [README.md] file.
 	
 
 	
@@ -107,4 +107,4 @@ conda install -c bioconda snakemake
 [Miniconda]: https://conda.io/miniconda.html
 [Curl]: https://www.tutorialspoint.com/unix_commands/curl.htm 
 [Bioconda]: https://bioconda.github.io/
-[readme.md]: 
+[readme.md]: https://github.com/chollenbeck/snakemake_haps/blob/master/README.md
