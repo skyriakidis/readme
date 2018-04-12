@@ -1,17 +1,17 @@
-# A tutorial for a complete variant calling and haplotype desinging workflow
+# A tutorial for a complete variant calling and haplotype designing workflow
 
 
 # 1) Description
 
 This is a tutorial to learn how to use the Snakemake workflow for mapping reads, call high quality variants and design haplotypes accurately. 
 
-This tutorial is using two samples and one sample fasta file as a reference.
+This tutorial is using two samples and one fasta file as a reference.
 
 # 2) First steps
 
 1. Downloading and Installing (Ana|mini)conda:
-- [Anaconda] - Free
-- [Miniconda] - Free
+- [Anaconda](https://www.continuum.io/downloads)
+- [miniconda](http://conda.pydata.org/miniconda.html)
 
 ```bash
 # For installing Anaconda:
