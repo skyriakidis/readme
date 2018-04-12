@@ -20,17 +20,19 @@ This tutorial is using two samples and one fasta file as a reference.
 sudo apt install curl	
 ```sh
 	
-##### Installing Anaconda
+- Installing Anaconda
+```sh
 curl -o /tmp/Anaconda.sh https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh && bash /tmp/Anaconda.sh
+```sh
 
 or
 
-##### Download the available version of Anaconda
-- [Anaconda] (https://www.continuum.io/downloads)
+- Download the available version of Anaconda from https://www.continuum.io/downloads
 
-#Run the installer by typing 
+- Run the installer by typing:
+```sh
 bash Anaconda.sh
-
+```sh
 
 - Variant a: 
 # If Curl is not installed you can install it by typing:
