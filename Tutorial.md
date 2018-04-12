@@ -63,17 +63,23 @@ conda install -c bioconda snakemake
  
  1. If there is an available github account, files can be downloaded directly by cloning files using:
  ```sh
- git clone https://github.com/chollenbeck/snakemake_haps.git
+ git clone https://github.com/chollenbeck/snakemake_haps.git snakemake_haps
  ```
  or
  
- can be donwloaded from https://github.com/chollenbeck/snakemake_haps.git and downloading the available zip file
+ can be donwloaded from https://github.com/chollenbeck/snakemake_haps.git by selecting the available zip file
  
  
  2. Install environment for use with the workflow
- 
- 
+ a. First change directory
  ```sh
+ cd /user/dir/snakemake_haps
+ ```
+ b. Installing the appropriate environment file
+ ```sh
+ conda env create --name *environment_name* --file /bin/install/environment.yml
+ ```
+
  
 	
 
