@@ -13,11 +13,10 @@ This tutorial is using two samples and one fasta file as a reference.
 - [Anaconda](https://www.continuum.io/downloads)
 - [miniconda](http://conda.pydata.org/miniconda.html)
 
-```bash
+	```sh
 # For installing Anaconda:
-# Steps fro downloading and installing Anaconda:
+# Steps for downloading and installing Anaconda:
 
-```bash
 # Curl is needed so if not installed you can install it by typing:
 sudo apt install curl	
 
