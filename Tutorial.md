@@ -59,7 +59,22 @@ export PATH=/home/user/package_name/bin/:PATH
 conda install -c bioconda snakemake
 ```
 	
- # 3) 
+ # 3) Download available workflow files for the tutorial
+ 
+ 1. If there is an available github account, files can be downloaded directly by cloning files using:
+ ```sh
+ git clone https://github.com/chollenbeck/snakemake_haps.git
+ ```
+ or
+ 
+ can be donwloaded from https://github.com/chollenbeck/snakemake_haps.git and downloading the available zip file
+ 
+ 
+ 2. Install environment for use with the workflow
+ 
+ 
+ ```sh
+ 
 	
 
 	
