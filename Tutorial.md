@@ -20,7 +20,7 @@ This tutorial is using two samples and one fasta file as a reference.
 sudo apt install curl	
 ```
 	
-- Installing Anaconda
+- Installing Anaconda:
 ```sh
 curl -o /tmp/Anaconda.sh https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh && bash /tmp/Anaconda.sh
 ```
@@ -34,22 +34,23 @@ or
 bash Anaconda.sh
 ```
 
-- Variant a: 
-# If Curl is not installed you can install it by typing:
-sudo apt install curl	
-
-# Installing Miniconda3
+- Installing Miniconda3:
+```sh
 curl -o /tmp/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && bash /tmp/miniconda.sh
+```
+or
 
+- Download the available version of Miniconda3 from https://conda.io/miniconda.html
 
-- Varndiant b:
-# Download the available version of Miniconda aRun the installer by typing:
+- Run the installer by typing:
+```sh
 bash Miniconda3-latest-Linux-x86_64.sh
+```
 
-
-#Installing Snakemake from the Bioconda channel:
+2. Installing Snakemake using [Bioconda] channel:
+```sh
 conda install -c bioconda snakemake
-
+```
 	
  
 	
@@ -67,3 +68,4 @@ conda install -c bioconda snakemake
 [Anaconda]: https://www.continuum.io/downloads
 [Miniconda]: https://conda.io/miniconda.html
 [Curl]: https://www.tutorialspoint.com/unix_commands/curl.htm 
+[Bioconda]: https://bioconda.github.io/
