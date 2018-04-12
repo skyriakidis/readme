@@ -18,12 +18,12 @@ This tutorial is using two samples and one fasta file as a reference.
 - Curl is needed so if not installed you can install it by typing:
 ```sh
 sudo apt install curl	
-```sh
+```
 	
 - Installing Anaconda
 ```sh
 curl -o /tmp/Anaconda.sh https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh && bash /tmp/Anaconda.sh
-```sh
+```
 
 or
 
@@ -32,7 +32,7 @@ or
 - Run the installer by typing:
 ```sh
 bash Anaconda.sh
-```sh
+```
 
 - Variant a: 
 # If Curl is not installed you can install it by typing:
