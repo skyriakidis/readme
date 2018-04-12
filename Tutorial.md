@@ -49,20 +49,23 @@ and
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-2. Installing Snakemake using [Bioconda] channel:
+2. Export Anaconda or Miniconda3 install location to PATH:
+```sh
+export PATH=/home/user/package_name/bin/:PATH
+```
+
+3. Installing Snakemake using [Bioconda] channel:
 ```sh
 conda install -c bioconda snakemake
 ```
 	
- 
+ # 3) 
 	
 
 	
 	
 
 
-#Installation of conda
-conda install -c bioconda snakemake
 
 
 
