@@ -9,19 +9,19 @@ This tutorial is using two samples and one sample fasta file as a reference.
 
 # 2) First steps
 
-	1. Downloading and Installing (Ana|mini)conda:
-	- [Anaconda] - Free
-	- [Miniconda] - Free
+1. Downloading and Installing (Ana|mini)conda:
+- [Anaconda] - Free
+- [Miniconda] - Free
 
 ```bash
-# For Installing Anaconda
+# For installing Anaconda:
+# Steps fro downloading and installing Anaconda:
 
-	# Downloading and Installing Anaconda
-
-## If Curl is not installed you can install it by typing:
+```bash
+# Curl is needed so if not installed you can install it by typing:
 sudo apt install curl	
 
-## Installing Anaconda
+# Installing Anaconda
 curl -o /tmp/Anaconda.sh https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh && bash /tmp/Anaconda.sh
 
 # or
