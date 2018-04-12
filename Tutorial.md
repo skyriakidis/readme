@@ -14,8 +14,9 @@ This tutorial is using two samples and one fasta file as a reference.
 - [miniconda](http://conda.pydata.org/miniconda.html)
 
 ### For installing Anaconda:
+
+- Curl is needed so if not installed you can install it by typing:
 ```sh
--Curl is needed so if not installed you can install it by typing:
 sudo apt install curl	
 ```sh
 	
