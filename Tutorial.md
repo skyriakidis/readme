@@ -81,6 +81,10 @@ conda install -c bioconda snakemake
  ```sh
  conda env create --name *environment_name* --file /bin/install/environment.yml
  ```
+ c. Activate environment
+ ```sh
+ source activate *enviornment_name*
+```
 
  # 4) Start workflow by running snakemake
  ```sh
