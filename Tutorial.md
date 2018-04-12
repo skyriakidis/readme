@@ -15,7 +15,7 @@ This tutorial is using two samples and one fasta file as a reference.
 
 ### For installing Anaconda:
 
-- Curl is needed so if not installed you can install it by typing:
+- [Curl] is needed so if not installed you can install it by typing:
 ```sh
 sudo apt install curl	
 ```
@@ -66,3 +66,4 @@ conda install -c bioconda snakemake
 
 [Anaconda]: https://www.anaconda.com/download/
 [Miniconda]: https://conda.io/miniconda.html
+[Curl]: https://www.tutorialspoint.com/unix_commands/curl.htm 
