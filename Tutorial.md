@@ -58,7 +58,9 @@ export PATH=/home/user/package_name/bin/:PATH
 ```sh
 conda install -c bioconda snakemake
 ```
-	
+###### For further information about installing and managing conda  please visit https://conda.io/docs/user-guide/install/index.html and https://conda.io/docs/user-guide/tasks/index.html, as well as https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04#installing-anaconda
+
+
  # 3) Download available workflow files for the tutorial
  
  1. If there is an available github account, files can be downloaded directly by cloning files using:
