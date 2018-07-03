@@ -83,7 +83,11 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 
 -[variant_calling.py] contains the workflow for the identification of variants from the produced BAM files. Initially this script splits the reference sequence into  multiple components for faster variant analysis. FreeBayes is the variant caller which requires as input files the indexed merged BAM file and produes a VCF file with raw variants. A filtering procedure is included in this script to remove low quality variants from the final variant set.
 
--[haplotype.py] 
+-[haplotype.py] builds SNP haplotypes
+
+You can read more about the method in the available manual of [rad_haplotyper] and the following publication:
+
+Willis, S. C., Hollenbeck, C. M., Puritz, J. B., Gold, J. R. and Portnoy, D. S. (2017), Haplotyping RAD loci: an efficient method to filter paralogs and account for physical linkage. Mol Ecol Resour, 17: 955–965. doi:10.1111/1755-0998.12647 [link]
 
 -[clean.py] removes all uneccessary files and folders created thoughout the analysis
 
@@ -118,7 +122,7 @@ Li H. and Durbin R. (2009). Fast and accurate short read alignment with Burrows-
 [SAMtools]: http://samtools.sourceforge.net/
 [BWA-MEM]: http://bio-bwa.sourceforge.net/bwa.shtml
 [FreeBayes]: https://github.com/ekg/freebayes
-
+[rad_haplotyper]: https://github.com/chollenbeck/rad_haplotyper
 
 
 
