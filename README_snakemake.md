@@ -83,7 +83,7 @@ This repository includes 4 fastq files in [data/fastq_raw] folder for use with t
 
 -[variant_calling.py] contains the workflow for the identification of variants from the produced BAM files. Initially this script splits the reference sequence into  multiple components for faster variant analysis. FreeBayes is the variant caller which requires as input files the indexed merged BAM file and produes a VCF file with raw variants. A filtering procedure is included in this script to remove low quality variants from the final variant set.
 
--[haplotype.py] builds SNP haplotypes
+-[haplotype.py] builds SNP haplotypes using the filtered variants from previous steps, providing a test for paralogy.
 
 You can read more about the method in the available manual of [rad_haplotyper] and the following publication:
 
