@@ -38,6 +38,9 @@ conda env create --name *environment_name* --file /bin/install/environment.yml
 #Activate environment
 source activate *environment_name* 
 
+#Create config.yaml consisting a list of the samples and their paths in /data/fastq_raw/, as well as mapping and variant filtering parameters
+python /bin/scripts/build_hap_config.py
+
 #Start workflow by running snakemake
 snakemake
 ```
